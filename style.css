@@ -1,0 +1,314 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family:var(--main-font);
+}
+:root {
+    --main-color:#f46d1a;
+    --black-color:#000000;
+    --main-font:'Kanit', sans-serif;
+}
+/* HTML*/
+html {
+   overflow-x: hidden;
+}
+
+body {
+    background-color:var(--main-color);
+    height:200vh;
+}
+.logo {
+    height:5rem;
+}
+
+.header {
+    width:80vw;
+    height:6rem;
+    background-color:white;
+    margin:auto;
+    margin-top:1rem;
+    border-radius:10rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 3%;
+    box-shadow:0px 0px 20px -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top:0;
+    z-index:1000;
+    
+    
+    
+}
+
+.bar-button {
+
+    background-color: transparent;
+    font-size:1.2rem;
+    margin-left:0.2rem;
+    transition:0.3s;
+ }
+
+.bar-button:hover {
+
+    transform:scale(1.3);
+ }
+
+
+a {
+   color:var(--black-color);
+   border-bottom: 2px solid transparent;
+   transition:0.3s;
+   margin-left:0.5rem;
+    
+}
+
+.active,a:hover {
+   border-color:var(--main-color);
+    
+}
+
+
+
+
+
+
+
+.home {
+    
+    min-height:100vh;
+    min-width:30rem;
+    padding:11rem;
+    background:url('breakfast.png') no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:white;
+    margin-top:-7rem;
+                       
+} 
+
+.order {
+    
+    height:3rem;
+    width:10rem;
+    background-color:transparent;
+    border:2px solid white;
+    border-radius:10rem;
+    font-family:var(--main-font);
+    color:white;
+    text-align: center;
+    font-size:1.2rem;
+    transition:0.3s;
+    
+}
+
+.order:hover {
+    background-color:white;
+    color:black;
+    transform:scale(1.1);
+    
+    
+}
+
+
+.box-container {
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    width:95vw;
+    margin: auto;
+    align-items: center;
+
+ 
+   
+
+    
+    
+}
+.box {
+   
+    background-color:white;
+    height:25rem;
+    width:15rem;
+    background-position:center;
+    background-size: cover;
+    margin-top:1rem;
+    border-radius:1rem;
+    box-shadow:0px 0px 10px -2px var(--black-color);
+   
+
+    
+    
+}
+.box:hover {
+
+
+    transform:scale(1.03);
+   
+
+    
+    
+}
+.box-head {
+    height:5rem;
+    width:10rem;
+  
+}
+
+.add-card
+{
+    height:3rem;
+    width:10rem;
+    margin-top:15rem;
+    margin-left:2.5rem;
+    color:white;
+    background-color:var(--black-color);
+    border-radius:2rem;
+    font-size:1.2rem;
+    transition:0.3s;
+
+
+
+}
+.add-card:hover {
+  
+ transform: scale(1.07);
+
+
+}
+.food-image {
+   
+    height:12rem;
+    width:12rem;
+    margin-left:1.5rem;
+   
+   
+    
+}
+
+.pp-image {
+   
+    height:8rem;
+    width:8rem;
+    margin-left:3.5rem;
+    margin-top:3.5rem;
+   
+   
+    
+}
+
+.menu-info {
+   
+
+   width:10rem;
+   margin-left:2.5rem;
+   text-align: center;
+    
+}
+
+h1 {
+   
+    text-align: center; color:white !important; 
+    font-size:50px;
+     
+ }
+ 
+
+.review-p , .review-title{
+   
+
+    text-align: center;
+    font-size:1rem;
+    margin-top:1rem;
+     
+ }
+ 
+
+
+.footer-box  {
+   
+   background-color: red;
+   width:100vw;
+   height:5rem; 
+   position:sticky;
+   
+     
+ }
+ 
+
+.about-us {
+   
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height:25rem;
+    background-color:white;
+    position: relative;
+    left: 10%;
+    margin-top:1rem;
+    border-radius:0.5rem;
+    background-image: cover;  
+    font-size:1.5rem;  
+    box-shadow:0px 0px 20px -2px  var(--black-color);
+    transition:0.3s;
+  
+ 
+}
+  
+
+.about-us:hover {
+
+    transform:scale(1.03);
+
+ 
+   }
+.about-p {
+    padding:2%;
+ 
+   }
+ 
+input {
+  
+    height:3.5rem;
+    width:20rem;
+
+ 
+}
+
+
+.contact-area {
+    width: 60vw;
+    height:14rem;
+    
+    position: relative;
+    margin-top:1rem;
+    border-radius:0.5rem;
+
+    margin: auto;
+    box-shadow: 0px 0px 20px -2px var(--black-color);
+
+   }
+
+textarea {
+    
+    width:40vw;
+    height:14rem;
+
+
+   }   
+
+.section    {
+    
+
+    width:100vw;
+    height:14rem;
+    background-color:red;
+
+
+
+}   
